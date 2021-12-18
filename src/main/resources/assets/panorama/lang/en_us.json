@@ -1,0 +1,6 @@
+{
+  "category.panorama.screenshot": "Panorama Mod",
+  "key.panorama.takescreenshot": "Take Panorama",
+  "text.panorama.tookscreenshot": "Panorama of %s",
+  "text.log.tookscreenshot": "Saved Panorama as %s"
+}

@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.Hashibutogarasu.panorama.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+    "PanoramaMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

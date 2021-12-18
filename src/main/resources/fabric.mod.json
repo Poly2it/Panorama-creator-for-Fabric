@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "panorama",
+  "version": "${version}",
+  "name": "Panorama Creator For Fabric",
+  "description": "You can take a panorama by pressing the I key on your world or server,and adapt it as a resourcepack.\n(デフォルトでは)Iキーを押すことでタイトル画面の背景画像が撮れます。",
+  "authors": [
+    "Hashibutogarasu"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/panorama-creator-for-fabric",
+    "sources": ""
+  },
+  "license": "Apache-2.0 License",
+  "icon": "pack.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      {
+        "adapter": "kotlin",
+        "value": "com.Hashibutogarasu.panorama.PanoramaKt::init"
+      }
+    ]
+  },
+  "mixins": [
+    "modid.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.11",
+    "fabric": "*",
+    "fabric-language-kotlin": "*",
+    "minecraft": "1.18.1",
+    "java": ">=17"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
