@@ -100,7 +100,8 @@ fun TakePanorama(client : MinecraftClient,biomenamespace : String, biomepath : S
 
     when {
         minecraft_version != null && minecraft_version == "" -> { mcmeta.pack.pack_format = 8 }
-        minecraft_version == "1.18.1" ||
+        minecraft_version == "1.18.2" ||
+                minecraft_version == "1.18.1" ||
                 minecraft_version == "1.18" -> { mcmeta.pack.pack_format = 8 }
 
         minecraft_version == "1.17.1" ||
